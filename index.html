@@ -66,7 +66,7 @@
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-          <li class="nav-item"><a class="nav-link" href="#contact">Payment</a></li>
+          <li class="nav-item"><a class="nav-link" href="#payment">Payment</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
           <li class="nav-item"><a class="nav-link" href="index-cv.html">My_CV</a></li>
@@ -417,19 +417,41 @@
       </div>
 
       <!-- Payment -->
-      <div class="col-md-4 mb-4">
-        <div class="card border-0 shadow h-100">
-          <div class="card-body">
-            <i class="bi bi-credit-card fs-2 text-primary mb-3"></i>
-            <h5 class="card-title">Pay to Antick</h5>
-            <p><a href="uupi://pay?pa=antickbh15122001-1@oksbi&cu=INR" target="_blank" class="text-decoration-none text-dark">antickbh15122001-1@oksbi</a></p>
-          </div>
-        </div>
-      </div>
+            <section id="payment" class="py-5 bg-light">
+              <div class="container">
+                <div class="row justify-content-center">
+                    <div class="card border-0 shadow h-100 text-center p-4">
+                      <div class="card-body">
+                        <i class="bi bi-credit-card fs-2 text-primary mb-3"></i>
+                        <h5 class="card-title">Pay to Antick</h5>
 
-    </div>
-  </div>
-</section>
+                  <!-- UPI QR Code -->
+                  <img src="https://api.qrserver.com/v1/create-qr-code/?size=200x200&data=upi://pay?pa=antickbh15122001-1@oksbi&pn=Antick&cu=INR" alt="Scan to Pay" class="img-fluid mb-3">
+
+                  <!-- UPI ID -->
+                  <p class="mb-2">
+                    <strong>UPI ID:</strong> <span id="upi-id">antickbh15122001-1@oksbi</span>
+                  </p>
+
+                  <!-- Copy Button -->
+                  <button class="btn btn-primary" onclick="copyUPI()">Copy UPI ID</button>
+
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            </section>
+
+      <script>
+      function copyUPI() {
+        const upiId = document.getElementById('upi-id').textContent;
+        navigator.clipboard.writeText(upiId).then(() => {
+          alert('UPI ID copied!');
+        });
+      }
+      </script>
+
 
 <!--footer-->
 <footer class="bg-dark text-light py-4">
