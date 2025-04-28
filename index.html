@@ -3,14 +3,11 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>My Portfolio</title>
+  <title>Antick's Portfolio</title>
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
-
   <link rel="stylesheet" href="css/style.css" />
   <script src="https://unpkg.com/lottie-web@latest/build/player/lottie.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
@@ -60,7 +57,7 @@
   <nav id="navbar" class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
       <a class="navbar-brand d-flex align-items-center" href="#">
-        <img src="images/Ab.png" alt="Logo" width="50" height="50" class="me-2 rounded-circle">
+        <img src="images/Ab.png" alt="Antick Bhattacharjee Logo" width="50" height="50" class="me-2 rounded-circle">
         Antick's Portfolio
       </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navMenu">
@@ -69,8 +66,10 @@
       <div class="collapse navbar-collapse" id="navMenu">
         <ul class="navbar-nav ms-auto">
           <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Payment</a></li>
           <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
           <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+          <li class="nav-item"><a class="nav-link" href="index-cv.html">My_CV</a></li>
           <li class="nav-item"><a class="nav-link" href="#work">Work</a></li>
           <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
         </ul>
@@ -82,7 +81,7 @@
   <section id="hero" class="text-white text-center d-flex align-items-center justify-content-center vh-100 bg-dark">
     <div class="animate__animated animate__fadeInDown">
       <div class="profile-img-wrapper mb-4">
-        <img src="images/antick.jpeg" alt="Profile" />
+        <img src="images/antick.jpeg" alt="Antick Bhattacharjee Profile Picture" />
       </div>
       
       <h1 class="display-4 fw-bold">Hi, I'm Antick Bhattacharjee</h1>
@@ -142,138 +141,110 @@
 </section>
 
 
-  <!-- Skills -->
-  <section id="skills" class="py-5 bg-dark text-white">
-    <div class="container">
-      <h2 class="text-center mb-5">Skills</h2>
-      <div class="row g-4">
-  
-        <!-- Skill Card Template -->
-        <!-- You can duplicate this block and adjust icons, skill names, percentages -->
-  
-        <!-- HTML -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fab fa-html5 me-2 text-warning"></i>HTML5</h5>
-            <div class="progress">
-              <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 95%">95%</div>
-            </div>
-          </div>
+<section id="skills" class="py-5 bg-dark text-white">
+  <div class="container">
+    <h2 class="text-center mb-5">Skills</h2>
+    <div class="row g-4">
+
+      <!-- HTML -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #e44d26;">
+          <h5 class="skill-title"><i class="fab fa-html5"></i>HTML5</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 95%;">95%</div></div>
         </div>
-  
-        <!-- CSS -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fab fa-css3-alt me-2 text-info"></i>CSS3</h5>
-            <div class="progress">
-              <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 90%">90%</div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- JavaScript -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fab fa-js-square me-2 text-warning"></i>JavaScript</h5>
-            <div class="progress">
-              <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 85%">85%</div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Bootstrap -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fab fa-bootstrap me-2 text-light"></i>Bootstrap</h5>
-            <div class="progress">
-              <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width: 90%">90%</div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Tailwind -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fas fa-wind me-2 text-info"></i>Tailwind CSS</h5>
-            <div class="progress">
-              <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 80%">80%</div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- React -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fab fa-react me-2 text-cyan"></i>React (Vite)</h5>
-            <div class="progress">
-              <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 75%">75%</div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Python -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fab fa-python me-2 text-warning"></i>Python</h5>
-            <div class="progress">
-              <div class="progress-bar bg-warning progress-bar-striped progress-bar-animated" style="width: 85%">85%</div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Django -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fab fa-python me-2 text-success"></i>Django</h5>
-            <div class="progress">
-              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 80%">80%</div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- PHP -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fab fa-php me-2 text-light"></i>PHP</h5>
-            <div class="progress">
-              <div class="progress-bar bg-primary progress-bar-striped progress-bar-animated" style="width: 85%">85%</div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- Laravel -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fab fa-laravel me-2 text-danger"></i>Laravel</h5>
-            <div class="progress">
-              <div class="progress-bar bg-danger progress-bar-striped progress-bar-animated" style="width: 75%">75%</div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- MySQL -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fas fa-database me-2 text-info"></i>MySQL</h5>
-            <div class="progress">
-              <div class="progress-bar bg-info progress-bar-striped progress-bar-animated" style="width: 80%">80%</div>
-            </div>
-          </div>
-        </div>
-  
-        <!-- C/C++ -->
-        <div class="col-md-4">
-          <div class="bg-secondary p-4 rounded shadow-sm h-100 skill-card position-relative overflow-hidden">
-            <h5><i class="fas fa-code me-2 text-light"></i>C / C++</h5>
-            <div class="progress">
-              <div class="progress-bar bg-success progress-bar-striped progress-bar-animated" style="width: 80%">80%</div>
-            </div>
-          </div>
-        </div>
-  
       </div>
+
+      <!-- CSS -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #264de4;">
+          <h5 class="skill-title"><i class="fab fa-css3-alt"></i>CSS3</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 90%;">90%</div></div>
+        </div>
+      </div>
+
+      <!-- JavaScript -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #f0db4f;">
+          <h5 class="skill-title"><i class="fab fa-js-square text-dark"></i>JavaScript</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 85%;">85%</div></div>
+        </div>
+      </div>
+
+      <!-- Bootstrap -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #563d7c;">
+          <h5 class="skill-title"><i class="fab fa-bootstrap"></i>Bootstrap</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 90%;">90%</div></div>
+        </div>
+      </div>
+
+      <!-- Tailwind -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #38bdf8;">
+          <h5 class="skill-title"><i class="fas fa-wind"></i>Tailwind CSS</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 80%;">80%</div></div>
+        </div>
+      </div>
+
+      <!-- React -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #61dafb;">
+          <h5 class="skill-title"><i class="fab fa-react text-dark"></i>React</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 75%;">75%</div></div>
+        </div>
+      </div>
+
+      <!-- Python -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #306998;">
+          <h5 class="skill-title"><i class="fab fa-python"></i>Python</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 85%;">85%</div></div>
+        </div>
+      </div>
+
+      <!-- Django -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #092e20;">
+          <h5 class="skill-title"><i class="fab fa-python"></i>Django</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 80%;">80%</div></div>
+        </div>
+      </div>
+
+      <!-- PHP -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #8892be;">
+          <h5 class="skill-title"><i class="fab fa-php"></i>PHP</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 85%;">85%</div></div>
+        </div>
+      </div>
+
+      <!-- Laravel -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #f9322c;">
+          <h5 class="skill-title"><i class="fab fa-laravel"></i>Laravel</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 75%;">75%</div></div>
+        </div>
+      </div>
+
+      <!-- MySQL -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #00758f;">
+          <h5 class="skill-title"><i class="fas fa-database"></i>MySQL</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 80%;">80%</div></div>
+        </div>
+      </div>
+
+      <!-- C / C++ -->
+      <div class="col-md-4">
+        <div class="p-4 rounded skill-card" style="background-color: #004482;">
+          <h5 class="skill-title"><i class="fas fa-code"></i>C / C++</h5>
+          <div class="progress"><div class="progress-bar" style="--progress-width: 80%;">80%</div></div>
+        </div>
+      </div>
+
     </div>
-  </section>
+  </div>
+</section>
   
 
   <!-- Projects -->
@@ -286,7 +257,11 @@
           <div class="project-card position-relative overflow-hidden">
             <img src="images/qr.png" class="img-fluid rounded" alt="Magic QR">
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center text-center">
-              <h5 class="text-white">Magic QR</h5>
+              <h5 class="text-white">
+                <span>
+                  <a href="https://github.com/antick011/magic-qr.git" target="_blank" class="text-light text-decoration-none">Magic QR</a>
+                </span>
+              </h5>
               <p class="text-white">Smart QR system to filter & boost Google reviews.</p>
               <span class="badge bg-dark">PHP</span>
               <span class="badge bg-dark">MySQL</span>
@@ -300,7 +275,11 @@
           <div class="project-card position-relative overflow-hidden">
             <img src="images/kpl.png" class="img-fluid rounded" alt="KPL Auction Hub">
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center text-center">
-              <h5 class="text-white">KPL Auction Hub</h5>
+              <h5 class="text-white">
+                <span>
+                  <a href="https://antick-kpl.onrender.com/" target="_blank" class="text-light text-decoration-none">KPL Auction HUB</a>
+                </span>
+              </h5>
               <p class="text-white">Cricket auction simulation built with Django.</p>
               <span class="badge bg-dark">Django</span>
               <span class="badge bg-dark">Python</span>
@@ -314,7 +293,11 @@
           <div class="project-card position-relative overflow-hidden">
             <img src="images/link.png" class="img-fluid rounded" alt="Fake Link Detector">
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center text-center">
-              <h5 class="text-white">Fake Link Detector</h5>
+              <h5 class="text-white">
+                <span>
+                  <a href="https://github.com/antick011/Link-Checker.git" target="_blank" class="text-light text-decoration-none">Link Checker</a>
+                </span>
+              </h5>
               <p class="text-white">Detects phishing/fake links using NLP & classification.</p>
               <span class="badge bg-dark">Python</span>
               <span class="badge bg-dark">Scikit-learn</span>
@@ -328,7 +311,11 @@
           <div class="project-card position-relative overflow-hidden">
             <img src="images/rebook.png" class="img-fluid rounded" alt="Portfolio Website">
             <div class="project-overlay d-flex flex-column justify-content-center align-items-center text-center">
-              <h5 class="text-white">REBOOK</h5>
+              <h5 class="text-white">
+                <span>
+                  <a href="https://github.com/antick011/REBOOK.git" target="_blank" class="text-light text-decoration-none">REBOOK</a>
+                </span>
+              </h5>
               <p class="text-white">Website to Sell & Buy Used Books.</p>
               <span class="badge bg-dark">React</span>
               <span class="badge bg-dark">Tailwind CSS</span>
@@ -354,7 +341,14 @@
           <div class="card-body">
             <h5 class="card-title">Corporate Trainer</h5>
             <h6 class="card-subtitle mb-2 text-light">Webel Computer Training Institute, Konnagar Branch</h6>
-            <p class="card-text">Conducting technical training on C, C++, HTML, CSS, JavaScript, PHP, Python, Django, Laravel, and Generative AI. Guiding students through live projects and industry-based modules.</p>
+            <p class="card-text">
+              Conducting technical training on C, C++, HTML, CSS, JavaScript, PHP, Python, Django, Laravel, and Generative AI. 
+              Guiding students through live projects and industry-based modules.
+              <br>
+              <span style="font-size: 0.85rem;">
+                <a href="https://webelkonnagar.in/" target="_blank" class="text-decoration-none" style="color: #807e7e9f;">webelkonnagar.in</a>
+              </span>
+            </p>
           </div>
         </div>
       </div>
@@ -366,7 +360,12 @@
           <div class="card-body">
             <h5 class="card-title">Developer & Business Consultant</h5>
             <h6 class="card-subtitle mb-2 text-light">BEST CRM APP</h6>
-            <p class="card-text">Working on the development and optimization of CRM solutions. Involved in client consultations, feature planning, and enhancing business workflows using modern web technologies.</p>
+            <p class="card-text">Working on the development and optimization of CRM solutions. Involved in client consultations, feature planning, and enhancing business workflows using modern web technologies.
+              <br>
+              <span style="font-size: 0.85rem;">
+                <a href="https://bestcrmapp.in/" target="_blank" class="text-decoration-none" style="color: #807e7e9f;">bestcrmapp.in</a>
+              </span>
+            </p>
           </div>
         </div>
       </div>
@@ -412,7 +411,18 @@
           <div class="card-body">
             <i class="bi bi-linkedin fs-2 text-primary mb-3"></i>
             <h5 class="card-title">LinkedIn</h5>
-            <p><a href="https://www.linkedin.com/in/antick-bhattacharjee-01004220b" target="_blank" class="text-decoration-none text-dark">Antick Bhattacharjee</a></p>
+            <p><a href="https://www.linkedin.com/in/antickbhattacharjee/" target="_blank" class="text-decoration-none text-dark">Antick Bhattacharjee</a></p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Payment -->
+      <div class="col-md-4 mb-4">
+        <div class="card border-0 shadow h-100">
+          <div class="card-body">
+            <i class="bi bi-credit-card fs-2 text-primary mb-3"></i>
+            <h5 class="card-title">Pay to Antick</h5>
+            <p><a href="uupi://pay?pa=antickbh15122001-1@oksbi&cu=INR" target="_blank" class="text-decoration-none text-dark">antickbh15122001-1@oksbi</a></p>
           </div>
         </div>
       </div>
@@ -424,9 +434,19 @@
 <!--footer-->
 <footer class="bg-dark text-light py-4">
   <div class="container text-center">
+    <form onsubmit="redirectToWhatsApp(event)">
+      <div class="mb-2">
+        <input type="text" id="name" class="form-control" placeholder="Your Name" required>
+      </div>
+      <div class="mb-2">
+        <input type="text" id="message" class="form-control" placeholder="What you wanna say?" required>
+      </div>
+      <button type="submit" class="btn btn-success">Send on WhatsApp</button>
+    </form>
+    <br>
     <p class="mb-2">© 2025 Antick Bhattacharjee. All rights reserved.</p>
     
-    <div class="social-icons">
+    <div class="social-icons mb-3">
       <a href="https://www.linkedin.com/in/antick-bhattacharjee" target="_blank" class="text-light mx-2">
         <i class="fab fa-linkedin fa-lg"></i>
       </a>
@@ -440,8 +460,25 @@
         <i class="fab fa-instagram fa-lg"></i>
       </a>
     </div>
+
+    
   </div>
+
+  <script>
+    function redirectToWhatsApp(event) {
+      event.preventDefault();
+      const name = document.getElementById('name').value;
+      const message = document.getElementById('message').value;
+      const fullMessage = `👋 Hi, I'm ${name}!\n💬 ${message}`;
+      const encodedMessage = encodeURIComponent(fullMessage);
+      const phoneNumber = '+918697853949'; // Replace with your number
+      const whatsappURL = `https://wa.me/${phoneNumber}?text=${encodedMessage}`;
+      window.open(whatsappURL, '_blank');
+    }
+  </script>
+  
 </footer>
+
 
 
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>

@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Antick Bhattacharjee - CV</title>
+  <style>
+    :root {
+      --bg-color: #ffffff;
+      --text-color: #000000;
+      --section-bg: #f4f4f4;
+      --font-size: 13px;
+    }
+
+    body.dark {
+      --bg-color: #1a1a1a;
+      --text-color: #f0f0f0;
+      --section-bg: #2a2a2a;
+    }
+
+    body {
+      font-family: Arial, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      margin: 0;
+      padding: 0;
+      font-size: var(--font-size);
+    }
+
+    .container {
+      max-width: 850px;
+      margin: auto;
+      background: var(--bg-color);
+      padding: 20px;
+    }
+
+    header {
+      text-align: center;
+      border-bottom: 1px solid #666;
+      padding-bottom: 10px;
+      margin-bottom: 10px;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 22px;
+    }
+
+    h2 {
+      color: var(--text-color);
+      font-size: 16px;
+      border-bottom: 1px solid #999;
+      padding-bottom: 4px;
+      margin-top: 15px;
+    }
+
+    .section {
+      background: var(--section-bg);
+      padding: 10px 15px;
+      border-radius: 6px;
+      margin-bottom: 12px;
+      page-break-inside: avoid;
+    }
+
+    ul {
+      list-style: none;
+      padding-left: 0;
+      margin: 0;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    .job-title {
+      font-weight: bold;
+    }
+
+    .date {
+      float: right;
+      color: #888;
+    }
+
+    .clear {
+      clear: both;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    button {
+      background-color: #333;
+      color: white;
+      border: none;
+      padding: 8px 12px;
+      margin: 4px;
+      cursor: pointer;
+      border-radius: 5px;
+      font-size: 13px;
+    }
+
+    button:hover {
+      background-color: #555;
+    }
+
+    @media print {
+  body {
+    background: white;
+    color: black;
+    font-size: 11.5px;
+    line-height: 1.2;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    padding: 0;
+    margin: 0;
+  }
+
+  .section {
+    page-break-inside: avoid;
+    padding: 6px 10px;
+    margin-bottom: 8px;
+  }
+
+  .buttons {
+    display: none;
+  }
+
+  header {
+    margin-bottom: 8px;
+  }
+
+  h1 {
+    font-size: 18px;
+  }
+
+  h2 {
+    font-size: 14px;
+    padding-bottom: 2px;
+    margin-top: 10px;
+    margin-bottom: 4px;
+  }
+
+  li {
+    margin-bottom: 4px;
+  }
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="buttons">
+      <button onclick="window.print()">🖨️ Print / Save as PDF</button>
+      <button onclick="toggleTheme()">🌓 Change Theme</button>
+    </div>
+
+    <header>
+      <h1>Antick Bhattacharjee</h1>
+      <p>Email: antick@tce-india.org | Phone: +91 8697853949 | Konnagar, Hooghly</p>
+      <p>LinkedIn: linkedin.com/in/antickbhattacharjee/ | GitHub: github.com/antick011</p>
+    </header>
+
+    <div class="section">
+      <h2>Professional Summary</h2>
+      <p>Enthusiastic Corporate Trainer and Tech Explorer with expertise in programming, web development, and emerging technologies. Passionate about empowering learners through hands-on training and real-world projects.</p>
+    </div>
+
+    <div class="section">
+      <h2>Work Experience</h2>
+      <ul>
+        <li>
+          <span class="job-title">Corporate Trainer – Webel Computer Training Institute</span>
+          <span class="date">Mar 2025 – Present</span>
+          <div class="clear"></div>
+          <p>Designed and delivered immersive training programs in PHP (MVC), Python, C, C++, and relevant frameworks.</p>
+        </li>
+        <li>
+          <span class="job-title">Operational Analyst – BEST CRM APP</span>
+          <span class="date">Apr 2025 – Present</span>
+          <div class="clear"></div>
+          <p>Developed and maintained server-side applications, conducted client demos, and optimized workflows through data-driven analysis.</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Education</h2>
+      <ul>
+        <li>
+          <span class="job-title">B.Tech in Computer Science & Engineering</span>
+          <span class="date">2020 – 2024</span>
+          <div class="clear"></div>
+          <p>Hooghly Engineering & Technology College | <strong>CGPA:</strong> 8.5</p>
+        </li>
+        <li>
+          <span class="job-title">Higher Secondary (12th)</span>
+          <span class="date">2018 – 2020</span>
+          <div class="clear"></div>
+          <p>Nabagram Vidyapith | <strong>Percentage:</strong> 72%</p>
+        </li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Skills</h2>
+      <ul>
+        <li>HTML, CSS, JavaScript</li>
+        <li>Python (Django, Flask)</li>
+        <li>PHP (MVC, Laravel)</li>
+        <li>Machine Learning, Generative AI</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Languages</h2>
+      <ul>
+        <li>English – Native</li>
+        <li>Hindi – Native</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Certifications</h2>
+      <ul>
+        <li>Certified Python Developer – Webel Certification, 2025</li>
+        <li>Certificate in Java – Cursa, 2023</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Interest & Hobbies</h2>
+      <ul>
+        <li>Innovation & Creation</li>
+        <li>Problem Solving</li>
+        <li>Music and Art</li>
+      </ul>
+    </div>
+  </div>
+
+  <script>
+    function toggleTheme() {
+      document.body.classList.toggle("dark");
+    }
+  </script>
+</body>
+</html>
